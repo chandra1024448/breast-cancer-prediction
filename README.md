@@ -28,4 +28,32 @@ The app uses Logistic Regression for prediction and is built with Streamlit for 
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/chandra1024448/breast-cancer-prediction/
+   git clone https://github.com/chandra1024448/breast-cancer-prediction/tree/main
+
+
+## Navigate to the project folder
+
+
+cd breast-cancer-prediction
+
+## Install dependencies
+
+pip install -r requirements.txt
+
+## Run the Streamlit app
+
+streamlit run app.py
+
+## Dataset 
+
+The model is trained on the Breast Cancer dataset from scikit-learn
+
+## Model Performance
+
+- Algorithm: Logistic Regression
+- Accuracy: ~95% on test data
+
+## Live Demo
+
+Try the app live here: https://huggingface.co/spaces/chandra1024/breast-cancer
+
